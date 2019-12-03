@@ -14,6 +14,14 @@
   border-radius: 8px;
 }
 
+#testimonials .testimonial_img {
+  width: 100%;
+}
+
+#contact_sere{
+  transition: 0.3s;
+}
+
 @media (max-width: 768px) {
   #my-photo{
     padding-top: 30px;
@@ -26,13 +34,10 @@
   .testimonial_img{
     width: 100%;
   }
-
 }
 
 
-#contact_sere{
-  transition: 0.3s;
-}
+
 
 
 /*--------------------------------------------------------------
