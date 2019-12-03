@@ -1,2 +1,1 @@
-# tmskr.github.io
-Website
+Repository of website: https://tmskr.github.io
