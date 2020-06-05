@@ -10,7 +10,7 @@
 # Serena's
 --------------------------------------------------------------*/
 #my-photo{
-  padding-top: 55px;
+  /*padding-top: 55px;*/
   border-radius: 8px;
 }
 
@@ -36,8 +36,88 @@
   }
 }
 
+#table_btn_mod { /*subscribe button*/
+  font-size: 12px;
+  border: 2px solid #71c55d;
+  background: #fff;
+  color: #71c55d;
+  padding: 11px 36px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+#table_btn_mod:hover{
+  background: #71c55d;
+  color: #fff;
+  margin: 0;
+  display: inline-block;
+}
 
 
+#playlist_title{ /*not used*/
+  color: #626262;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+
+#content-blog-mod { /*centers vertically - cannot decrease the square height*/
+  display: inline-block;
+  padding: 20px 0px 0px 0px;
+}
+
+#blog .block-blog { /*adds space between rows*/
+  margin-bottom: 30px;
+}
+
+#social-links-mod{
+  font-size: 18px;
+  display: inline-block;
+  background: #71c55d;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.centerBlock { /*this centers items in a CSS column group*/
+  display: table;
+  margin: auto;
+}
+
+.rightBlock {
+  float: right;
+}
+
+.padd-section-title {
+  padding-bottom: 0px;
+  padding-top: 80px;
+}
+
+#a-no-spacing{
+  letter-spacing: 0px;
+  color:  #71c55d;
+}
+#a-no-spacing a:hover {
+  color: #55b03f;
+}
+
+/*#about-content-mod{
+  padding-top: 0px;
+}*/
+
+#a-hire-me-text{
+  letter-spacing: 0px;
+  color:  #626262;
+}
 
 
 /*--------------------------------------------------------------
@@ -329,6 +409,10 @@ span {
   color: #71c55d;
 }
 
+
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -564,11 +648,14 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #fff;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
 .padd-section {
-  padding-bottom: 80px;
+  padding-bottom: 80px; /*original: padding-bottom: 80px; */
   padding-top: 80px;
 }
 
@@ -657,6 +744,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
   color: #71c55d;
 }
 
+#hire-me-fig{
+  padding-top: 50px;
+}
+
 /* About Us Section
 --------------------------------*/
 #about-us img {
@@ -664,7 +755,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-content {
-  padding-top: 60px;
+  padding-top: 0px; /*original: padding-top: 60px;*/
 }
 
 #about-us .about-content h2 {
@@ -679,7 +770,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #about-us .about-content span {
   font-weight: 700;
-  padding-right: 10px;
+  padding-right: 0px; /*original:   padding-right: 10px;*/
   text-transform: uppercase;
 }
 
@@ -1097,7 +1188,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
   }
 }
 
+
+
 #blog .block-blog img {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
 }
 
